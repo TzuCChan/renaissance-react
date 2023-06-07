@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 import { useState } from "react";
+import Arts from "./Arts";
+import Gallery from "./gallery";
+import items from "./data";
 
 function App() {
   return (
