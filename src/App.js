@@ -2,7 +2,7 @@
 // import './App.css';
 import { useState } from "react";
 import Arts from "./Arts";
-import Gallery from "./gallery";
+import Category from "./Category";
 import items from "./data";
 
 function App() {
