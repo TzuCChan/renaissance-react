@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-function Category({ categories, filterItems }) {
+function Categories({ categories, filterItems }) {
 
   return (
     <div className="btn-container">
@@ -20,4 +20,4 @@ function Category({ categories, filterItems }) {
   )
 }
 
-export default Category
+export default Categories
