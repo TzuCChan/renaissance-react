@@ -8,28 +8,28 @@ import items from "./data";
 const allCategories = ['all', ...new Set(items.map((item) => item.category))]
 
 function App() {
-  const [menuItems, setMenuItems] = useState(items);
+  const [artsItems, setArtsItems] = useState(items);
   // const [categories, setCategories] = useState(allCategories);
   const [categories] = useState(allCategories);
 
   const filterItems = (category) => {
     if (category === "all") {
-      setMenuItems(items)
+      setArtsItems(items)
       return;
     }
     const newItems = items.filter((item) => item.category === category);
-    setMenuItems(newItems);
+    setArtsItems(newItems);
   };
 
   return (
     <main>
-      <section className="menu section">
+      <section className="arts section">
         <div className="title">
-          <h2>our menu</h2>
+          <h2>Three Arts</h2>
           <div className="underline"></div>
         </div>
         <Categories categories={categories} filterItems={filterItems} />
-        <Menu items={menuItems} />
+        <Arts items={artsItems} />
       </section>
     </main>
   );
