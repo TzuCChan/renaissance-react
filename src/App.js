@@ -24,7 +24,7 @@ function App() {
   return (
     <main>
       <section className="arts section">
-        <div className="title">
+        <div className="name">
           <h2>Three Arts</h2>
           <div className="underline"></div>
         </div>
