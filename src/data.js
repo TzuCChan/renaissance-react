@@ -6,5 +6,13 @@ const arts = [
     year: 1550,
     img: '',
     desc: 'fmous painting.',
+  },
+  {
+    id: 2,
+    name: 'David',
+    category: 'Michaelangelo',
+    year: 1540,
+    img: '',
+    desc: 'nude statues.',
   }
 ]
