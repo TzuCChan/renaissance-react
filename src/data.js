@@ -14,5 +14,13 @@ const arts = [
     year: 1540,
     img: '',
     desc: 'nude statues.',
+  },
+  {
+    id: 3,
+    title: 'The School of Athens',
+    category: 'Raphael',
+    year: 1509,
+    img: '',
+    desc: 'fresco.',
   }
 ]
