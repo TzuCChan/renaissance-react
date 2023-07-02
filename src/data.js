@@ -4,7 +4,7 @@ const arts = [
     name: 'Mona Lisa',
     category: 'Da Vinci',
     year: 1550,
-    img: '',
+    img: './images/Monalisa.jpg',
     desc: 'fmous painting.',
   },
   {
@@ -23,4 +23,6 @@ const arts = [
     img: '',
     desc: 'fresco.',
   }
-]
+];
+
+export default arts;
