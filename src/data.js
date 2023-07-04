@@ -12,7 +12,7 @@ const arts = [
     name: 'David',
     category: 'Michaelangelo',
     year: 1540,
-    img: '',
+    img: './images/michelangelo-david.jpg',
     desc: 'nude statues.',
   },
   {
