@@ -183,6 +183,12 @@ p {
   justify-items: center;
 }
 
+.arts-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
