@@ -169,6 +169,11 @@ p {
   border-radius: var(--radius);
 }
 
+.filter-btn:hover {
+  background: var(--clr-gold);
+  color: var(--clr-white);
+}
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
