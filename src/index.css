@@ -208,6 +208,10 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.year {
+  color: var(--clr-gold);
+}
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
